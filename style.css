@@ -161,3 +161,164 @@ body {
     transform: scale(1.05);
     cursor: pointer;
 }
+
+/* collections  */
+.collections {
+    margin: 0 auto;
+    width: 74%;
+    margin-top: 100px;
+}
+.coll-heading  {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.coll-para-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+.coll-para p{
+    font-size: 1.4rem;
+    color: rgb(90, 87, 87);
+}
+.coll-location {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.coll-location p {
+    margin-right: 10px;
+    color: rgb(225, 50, 50);
+    cursor: pointer;
+}
+.coll-location i {
+    color: rgb(225, 50, 50);
+    cursor: pointer;
+}
+.coll-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.coll-box {
+    height: 310px;
+    width: 270px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 8px;
+}
+.coll-box1 {
+    background-image: url(./Images/coll1.avif);
+    background-size: cover;
+    background-position-x: -23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    cursor: pointer;
+}
+.coll-grid-para {
+    margin-left: 10px;
+    height: 50px;
+    font-size: 1.4rem;
+    margin-bottom: -5px;
+}
+.coll-grid-places{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.coll-box2 {
+    background-image: url(./Images/coll2.avif);
+    background-size: cover;
+    background-position-x: -23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;  
+}
+.coll-box3 {
+    background-image: url(./Images/coll3.avif);
+    background-size: cover;
+    background-position-x: -23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    cursor: pointer;
+}
+.coll-box4 {
+    background-image: url(./Images/coll4.avif);
+    background-size: cover;
+    background-position-x: -23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    cursor: pointer;
+}
+
+/* popular */
+.popular {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.popular-content {
+    width: 74%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+.pop-heading {
+    font-size: 2.8rem;
+    color: rgb(72, 70, 70);
+}
+.jaipur {
+    color: black;
+    font-weight: 540;
+}
+.pop-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+.pop-grid-box {
+    height: 80px;
+    background-color: white;
+    border: 1px solid rgb(230, 219, 219);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.pop-para {
+    margin-left: 10px;
+    font-size: 1.4rem;
+}
+.pop-places {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+    margin-left: 10px;
+    color: rgb(82, 74, 74);
+    margin-right: 15px;
+}
+
+.box-mine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.box-mine p {
+    font-size: 1.4rem;
+}
